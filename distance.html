@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+<title>Calculateur de distance pour Black Desert Online</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="dist.js"></script>
+</head>
+
+<body>
+	<noscript><h1>Votre navigateur ne supporte pas JavaScript!</h1></noscript>
+	<form id="distance-form" action="#">
+		Ville de d&eacute;part :
+		<select id='start' form="distance-form">
+		   <option value=0>Olvia</option>
+		   <option value=1>V&eacute;lia</option>
+		   <option value=2>Florin</option>
+		   <option value=3>Heidel</option>
+		   <option value=4>Glish</option>
+		   <option value=5>Calph&eacute;on</option>
+		   <option value=6>Keplan</option>
+		   <option value=7>Behr</option>
+		   <option value=8>Trent</option>
+		   <option value=9>Epheria</option>
+		   <option value=10>Tarif</option>
+		   <option value=11>Ranch</option>
+		   <option value=12>Pointe du ricochet</option>
+		   <option value=13>Abun</option>
+		   <option value=14>Altinova</option>
+		   <option value=15>Shakatu</option>
+		</select>
+		<br/>
+		Ville d&apos;arriv&eacute; :
+		<select id="stop" form="distance-form">
+		   <option value=0>Olvia</option>
+		   <option value=1>V&eacute;lia</option>
+		   <option value=2>Florin</option>
+		   <option value=3>Heidel</option>
+		   <option value=4>Glish</option>
+		   <option value=5>Calph&eacute;on</option>
+		   <option value=6>Keplan</option>
+		   <option value=7>Behr</option>
+		   <option value=8>Trent</option>
+		   <option value=9>Epheria</option>
+		   <option value=10>Tarif</option>
+		   <option value=11>Ranch</option>
+		   <option value=12>Pointe du ricochet</option>
+		   <option value=13>Abun</option>
+		   <option value=14>Altinova</option>
+		   <option value=15>Shakatu</option>
+		</select>
+		<br/>
+		Mode de transport :
+		<select id="trans" form="distance-form">
+			<option value=0>Pieds</option>
+			<option value=1>Cheval au pas/chariot</option>
+			<option value=2>Cheval au trot</option>
+			<option value=3>Cheval avec repos</option>
+			<option value=4>Pieds avec repos</option>
+		</select>
+	</form>
+	<br/>
+	<br/>
+	<br/>
+	<div>Le temps de trajet approximatif est de : 
+		<div id="time"></div>
+	</div>
+</body>
+</html>
