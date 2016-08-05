@@ -5,6 +5,7 @@ $(document).ready(function(){
     $("#to-convert").change(function(){
         convert($("#to-convert").val());
     });
+    today();
 });
 
 function convert(date_to_convert){
@@ -17,4 +18,9 @@ function convert(date_to_convert){
 
 function calcMonth(val){
     return MONTH[val-1];
+}
+
+function today(){
+    var d = new Date();
+    $("#today").html(d.getDate() + ' ' + calcMonth(d.getMonth()) + ' ' + (d.getFullYear()-1731));
 }
