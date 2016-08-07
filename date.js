@@ -22,5 +22,5 @@ function calcMonth(val){
 
 function today(){
     var d = new Date();
-    $("#today").html(d.getDate() + ' ' + calcMonth(d.getMonth()) + ' ' + (d.getFullYear()-1731));
+    $("#today").html(d.getDate() + ' ' + calcMonth(d.getMonth()+1) + ' ' + (d.getFullYear()-1731));
 }
