@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+    <title>Card shuffling</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/seedrandom/2.4.0/seedrandom.min.js"></script>
+    <script src="cards.js"></script>
+</head>
+<body>
+    <noscript><h1>Votre navigateur ne supporte pas JavaScript!</h1></noscript>
+    <form>
+        <label for="seed">Entrez une seed ou vide pour en generer une</label>
+        <input type="text" name="seed" id="seed"/>
+        <input type="button" value="Submit" id="pitton"/>
+    </form>
+    <div id="result"></div>
+</body>
+</html>
