@@ -3,6 +3,7 @@ var deck = [];
 $(document).ready(function(){
     deck = init(deck);
     $("#pitton").click(function(){shuffle()});
+    $("form").submit(function(){return false;})
 });
 
 function shuffle(){
@@ -24,7 +25,6 @@ function shuffle(){
         temp_deck.slice(x, 1);
     }
     print_deck(shuffled_deck);
-    return (false);
 }
 
 function print_deck(card_set){
