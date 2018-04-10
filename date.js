@@ -1,4 +1,4 @@
-MONTH = ['Bouclier','Berserker','Chameau','Dragon noir','Hibou-Tr&eacute;ant','&Eacute;l&eacute;phant','Aurige','Pierre de Sceau','Gobelin','Clef','Marteau','Bateau'];
+MONTH = ['Bouclier','G&eacute;ant','Chameau','Dragon noir','Hibou','&Eacute;l&eacute;phant','Chariot','Pierre de Sceau','Gobelin','Clef','Marteau','Bateau'];
 
 $(document).ready(function(){
     $("form").submit(function(){return false;});
